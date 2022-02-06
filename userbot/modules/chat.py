@@ -460,7 +460,7 @@ async def get_users(event):
             event, "**Berikan Link Grup Chat untuk menculik membernya**"
         )
     avp = await edit_or_reply(event, f"**Mengundang Member Dari Group {avp_}**")
-    avproject = await get_chatinfo(event)
+    await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
         return await avp.edit(
