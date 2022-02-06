@@ -446,30 +446,30 @@ async def _(event):
 
 @avp_cmd(pattern="inviteall ?(.*)")
 async def get_users(event):
-    man_ = event.text[11:]
-    chat_man = man_.lower()
-    restricted = ["@SharingUserbot", "@sharinguserbot"]
-    if chat_man in restricted:
+    avp_ = event.text[11:]
+    chat_av = avp_.lower()
+    restricted = ["@GeezSupport", "@geezsupport"]
+    if chat_av in restricted:
         await edit_or_reply(event, "**Anda tidak dapat Mengundang Anggota dari sana.**")
         await event.client.send_message(
-            -1001473548283, "**Maaf Telah Mencuri Member dari Sini.**"
+            -1001459812644, "**Maaf Telah Mencuri Member dari Sini.**"
         )
         return
-    if not man_:
+    if not avp_:
         return await edit_or_reply(
             event, "**Berikan Link Grup Chat untuk menculik membernya**"
         )
-    man = await edit_or_reply(event, f"**Mengundang Member Dari Group {man_}**")
-    manuserbot = await get_chatinfo(event)
+    avp = await edit_or_reply(event, f"**Mengundang Member Dari Group {avp_}**")
+    avproject = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
-        return await man.edit(
+        return await avp.edit(
             "**Tidak bisa Menambahkan Member di sini Harap ketik di Grup Chat**"
         )
     s = 0
     f = 0
     error = "None"
-    await man.edit("**Terminal Status**\n\n`Sedang Mengumpulkan Pengguna...`")
+    await avp.edit("**Terminal Status**\n\n`Sedang Mengumpulkan Pengguna...`")
     async for user in event.client.iter_participants(manuserbot.full_chat.id):
         try:
             await event.client(InviteToChannelRequest(channel=chat, users=[user.id]))
@@ -480,7 +480,7 @@ async def get_users(event):
         except Exception as e:
             error = str(e)
             f += 1
-    return await man.edit(
+    return await avp.edit(
         f"**Terminal Finished** \n\n• **Berhasil Menambahkan** `{s}` **orang** \n• **Gagal Menambahkan** `{f}` **orang**"
     )
 
