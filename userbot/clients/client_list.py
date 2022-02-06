@@ -49,11 +49,11 @@ async def client_id(event, botid=None):
     if botid is not None:
         uid = await event.client(GetFullUserRequest(botid))
         OWNER_ID = uid.user.id
-        uid.user.first_name
+        AVP_USER = uid.user.first_name
     else:
         client = await event.client.get_me()
         uid = telethon.utils.get_peer_id(client)
         OWNER_ID = uid
-        client.first_name
+        AVP_USER = client.first_name
     AVP_mention = f"[{AVP_USER}](tg://user?id={OWNER_ID})"
     return OWNER_ID, AVP_USER, AVP_mention
