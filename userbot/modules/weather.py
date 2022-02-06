@@ -17,7 +17,7 @@ from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
 from userbot import OPEN_WEATHER_MAP_APPID as OWM_API
 from userbot import WEATHER_DEFCITY
-from userbot.utils import edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_or_reply
 
 DEFCITY = WEATHER_DEFCITY or None
 

@@ -9,7 +9,7 @@ from telethon.tl.functions.contacts import UnblockRequest
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from userbot.utils import edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_or_reply
 
 
 @avp_cmd(pattern="hz(:? |$)(.*)?")

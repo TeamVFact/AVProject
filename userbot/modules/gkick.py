@@ -6,7 +6,7 @@ from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, DEVS
 from userbot.events import register
-from userbot.utils import get_user_from_event, avp_cmd
+from userbot.utils import avp_cmd, get_user_from_event
 
 
 @avp_cmd(pattern="gkick(?: |$)(.*)")

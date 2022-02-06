@@ -37,7 +37,7 @@ from userbot import CMD_HELP
 from userbot import S_PACK_NAME as custompack
 from userbot import tgbot
 from userbot.modules.sql_helper.globals import addgvar, gvarstatus
-from userbot.utils import edit_delete, edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_delete, edit_or_reply
 
 KANGING_STR = [
     "Colong Sticker dulu yee kan",

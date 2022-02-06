@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 from userbot import CMD_HELP
-from userbot.utils import edit_or_reply, load_module, avp_cmd, remove_plugin, reply_id
+from userbot.utils import avp_cmd, edit_or_reply, load_module, remove_plugin, reply_id
 
 
 @avp_cmd(pattern="install$")

@@ -14,7 +14,7 @@ from PIL import Image
 from telethon import functions, types
 
 from userbot import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from userbot.utils import check_media, edit_delete, edit_or_reply, avp_cmd, progress
+from userbot.utils import avp_cmd, check_media, edit_delete, edit_or_reply, progress
 
 Glitched = TEMP_DOWNLOAD_DIRECTORY + "glitch.gif"
 

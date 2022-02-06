@@ -5,7 +5,7 @@ import random
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import deEmojify, edit_delete, avp_cmd
+from userbot.utils import avp_cmd, deEmojify, edit_delete
 
 
 @avp_cmd(pattern="waifu(?: |$)(.*)")

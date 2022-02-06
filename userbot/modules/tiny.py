@@ -16,7 +16,7 @@ from PIL import Image
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import bash, avp_cmd
+from userbot.utils import avp_cmd, bash
 
 
 @avp_cmd(pattern="tiny(?: |$)(.*)")

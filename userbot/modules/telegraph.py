@@ -13,7 +13,7 @@ from telegraph import Telegraph, exceptions, upload_file
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from userbot.utils import edit_delete, edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_delete, edit_or_reply
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name="telegraph")

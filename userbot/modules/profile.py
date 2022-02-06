@@ -28,7 +28,7 @@ from telethon.tl.types import (
 from telethon.utils import get_input_location
 
 from userbot import CMD_HELP, SUDO_USERS, TEMP_DOWNLOAD_DIRECTORY, bot
-from userbot.utils import edit_delete, edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_delete, edit_or_reply
 
 # ====================== CONSTANT ===============================
 INVALID_MEDIA = "```Maaf Media Tidak Valid.```"

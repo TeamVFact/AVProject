@@ -16,7 +16,7 @@ from humanize import naturalsize
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, LOGS
-from userbot.utils import edit_delete, edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_delete, edit_or_reply
 
 
 @avp_cmd(pattern="direct(?: |$)([\s\S]*)")

@@ -7,11 +7,11 @@
 
 from telethon.tl.functions.channels import InviteToChannelRequest
 
-from userbot import BOT_USERNAME
+from userbot import AVP2, AVP3, AVP4, AVP5, BOT_USERNAME
 from userbot import BOT_VER as version
 from userbot import BOTLOG_CHATID
 from userbot import CMD_HANDLER as cmd
-from userbot import AVP2, AVP3, AVP4, AVP5, bot, branch
+from userbot import bot, branch
 
 MSG_ON = """
 🔥 **AVProject Berhasil Di Aktifkan**

@@ -16,7 +16,7 @@ from traceback import format_exc
 
 from telethon import events
 
-from userbot import CMD_HANDLER, CMD_LIST, DEFAULT, DEVS, AVP2, AVP3, AVP4, AVP5, bot
+from userbot import AVP2, AVP3, AVP4, AVP5, CMD_HANDLER, CMD_LIST, DEFAULT, DEVS, bot
 
 
 def avp_cmd(pattern=None, command=None, **args):

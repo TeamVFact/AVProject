@@ -24,7 +24,7 @@ from telethon import __version__, version
 from userbot import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_TEKS_CUSTOM, BOT_VER, CHANNEL
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, GROUP, StartTime
-from userbot.utils import bash, edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, bash, edit_or_reply
 
 from .ping import get_readable_time
 

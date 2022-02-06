@@ -5,7 +5,7 @@ from telethon.events import ChatAction
 
 from userbot import DEVS, bot
 from userbot.events import register
-from userbot.utils import get_user_from_event, avp_cmd
+from userbot.utils import avp_cmd, get_user_from_event
 
 # Ported For Lord-Userbot by liualvinas/Alvin
 

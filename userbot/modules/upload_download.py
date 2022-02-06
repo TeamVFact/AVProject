@@ -24,7 +24,7 @@ from telethon.tl.types import DocumentAttributeAudio, DocumentAttributeVideo
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, LOGS, TEMP_DOWNLOAD_DIRECTORY
-from userbot.utils import edit_or_reply, humanbytes, avp_cmd, progress, run_cmd
+from userbot.utils import avp_cmd, edit_or_reply, humanbytes, progress, run_cmd
 from userbot.utils.FastTelethon import download_file, upload_file
 
 

@@ -3,7 +3,7 @@ from time import sleep
 from userbot import BLACKLIST_CHAT
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_or_reply
 
 
 @avp_cmd(pattern="sayang(?: |$)(.*)")

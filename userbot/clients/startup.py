@@ -9,15 +9,12 @@ import sys
 
 import telethon.utils
 
+from userbot import AVP2, AVP3, AVP4, AVP5
 from userbot import BOT_VER as version
 from userbot import (
     DEFAULT,
     DEVS,
     LOGS,
-    AVP2,
-    AVP3,
-    AVP4,
-    AVP5,
     STRING_2,
     STRING_3,
     STRING_4,

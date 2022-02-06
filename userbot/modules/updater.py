@@ -10,7 +10,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME, UPSTREAM_REPO_URL
-from userbot.utils import edit_delete, edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_delete, edit_or_reply
 
 
 async def gen_chlog(repo, diff):

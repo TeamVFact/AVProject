@@ -8,7 +8,7 @@ from userbot import CMD_HELP
 from userbot import DEFAULT as me
 from userbot.events import register as own_cmd
 from userbot.modules.ping import absen
-from userbot.utils import edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_or_reply
 
 
 @avp_cmd(pattern="bulan$")

@@ -10,7 +10,7 @@ from telethon.tl.types import InputPhoto
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, LOGS, STORAGE, SUDO_USERS
-from userbot.utils import edit_or_reply, avp_cmd
+from userbot.utils import avp_cmd, edit_or_reply
 
 if not hasattr(STORAGE, "userObj"):
     STORAGE.userObj = False

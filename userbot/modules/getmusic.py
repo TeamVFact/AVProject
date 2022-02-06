@@ -23,7 +23,7 @@ from userbot import (
     TEMP_DOWNLOAD_DIRECTORY,
     lastfm,
 )
-from userbot.utils import bash, chrome, edit_or_reply, avp_cmd, progress
+from userbot.utils import avp_cmd, bash, chrome, edit_or_reply, progress
 from userbot.utils.FastTelethon import upload_file
 
 

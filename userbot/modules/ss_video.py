@@ -11,7 +11,7 @@ from telethon.tl.types import DocumentAttributeFilename
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import bash, edit_or_reply, avp_cmd, progress
+from userbot.utils import avp_cmd, bash, edit_or_reply, progress
 
 
 @avp_cmd(pattern="ssvideo(?: |$)(.*)")

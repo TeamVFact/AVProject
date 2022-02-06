@@ -12,7 +12,7 @@ import re
 import userbot.modules.sql_helper.blacklist_sql as sql
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import edit_or_reply, avp_cmd, man_handler
+from userbot.utils import avp_cmd, edit_or_reply, man_handler
 
 
 @man_handler()

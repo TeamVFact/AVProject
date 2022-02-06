@@ -10,7 +10,7 @@ from telethon import Button
 from userbot import BOT_USERNAME
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, tgbot
-from userbot.utils import edit_delete, avp_cmd, reply_id
+from userbot.utils import avp_cmd, edit_delete, reply_id
 
 # regex obtained from:
 # https://github.com/PaulSonOfLars/tgbot/blob/master/tg_bot/modules/helper_funcs/string_handling.py#L23

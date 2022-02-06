@@ -40,10 +40,10 @@ from userbot import CMD_HELP, DEVS
 from userbot.events import register
 from userbot.utils import (
     _format,
+    avp_cmd,
     edit_delete,
     edit_or_reply,
     get_user_from_event,
-    avp_cmd,
     man_handler,
     media_type,
 )

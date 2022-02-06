@@ -17,7 +17,7 @@ from telethon.errors import rpcbaseerrors
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
 from userbot.events import register
-from userbot.utils import edit_delete, avp_cmd
+from userbot.utils import avp_cmd, edit_delete
 
 
 @avp_cmd(pattern="purge$")

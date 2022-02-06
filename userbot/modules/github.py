@@ -11,7 +11,7 @@ from pySmartDL import SmartDL
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
-from userbot.utils import edit_delete, edit_or_reply, avp_cmd, reply_id
+from userbot.utils import avp_cmd, edit_delete, edit_or_reply, reply_id
 
 ppath = os.path.join(os.getcwd(), "temp", "githubuser.jpg")
 
