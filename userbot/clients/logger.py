@@ -28,7 +28,7 @@ except BaseException:
     pass
 
 
-async def man_userbot_on():
+async def avp_userbot_on():
     try:
         if bot:
             if BOTLOG_CHATID != 0:
