@@ -460,7 +460,7 @@ async def get_users(event):
             event, "**Berikan Link Grup Chat untuk menculik membernya**"
         )
     avp = await edit_or_reply(event, f"**Mengundang Member Dari Group {avp_}**")
-    await get_chatinfo(event)
+    avproject = await get_chatinfo(event)
     chat = await event.get_chat()
     if event.is_private:
         return await avp.edit(
@@ -470,11 +470,11 @@ async def get_users(event):
     f = 0
     error = "None"
     await avp.edit("**Terminal Status**\n\n`Sedang Mengumpulkan Pengguna...`")
-    async for user in event.client.iter_participants(manuserbot.full_chat.id):
+    async for user in event.client.iter_participants(avproject.full_chat.id):
         try:
             await event.client(InviteToChannelRequest(channel=chat, users=[user.id]))
             s += 1
-            await man.edit(
+            await avp.edit(
                 f"**Terminal Running**\n\n• **Menambahkan** `{s}` **orang** \n• **Gagal Menambahkan** `{f}` **orang**\n\n**× LastError:** `{error}`"
             )
         except Exception as e:
