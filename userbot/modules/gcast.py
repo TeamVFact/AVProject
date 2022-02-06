@@ -21,12 +21,12 @@ from userbot.utils import avp_cmd, edit_delete, edit_or_reply
 
 while 0 < 6:
     _GCAST_BLACKLIST = get(
-        "https://raw.githubusercontent.com/mrismanaziz/Reforestation/master/blacklistgcast.json"
+        "https://raw.githubusercontent.com/vckyou/Reforestation/master/blacklistgcast.json"
     )
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        GCAST_BLACKLIST = [-1001473548283, -1001390552926]
+        GCAST_BLACKLIST = [-1001473548283, -1001390552926, -1001459812644]
         break
     GCAST_BLACKLIST = _GCAST_BLACKLIST.json()
     break
