@@ -270,7 +270,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/mrismanaziz/Reforestation/master/blacklistgeez.json"
+        "https://raw.githubusercontent.com/vckyou/Reforestation/master/blacklistgeez.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
