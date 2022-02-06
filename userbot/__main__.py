@@ -22,14 +22,14 @@ from telethon import version
 from userbot import BOT_TOKEN
 from userbot import BOT_VER as ubotversion
 from userbot import LOGS, bot
-from userbot.clients import av_userbot_on, multiav
+from userbot.clients import avp_userbot_on, multiavp
 from userbot.modules import ALL_MODULES
 from userbot.utils import autobot, checking
 
 try:
     for module_name in ALL_MODULES:
         imported_module = import_module("userbot.modules." + module_name)
-    client = multiav()
+    client = multiavp()
     total = 5 - client
     LOGS.info(f"Total Clients = {total} User")
     LOGS.info(f"Python Version - {python_version()}")
@@ -44,7 +44,7 @@ except BaseException as e:
 
 
 bot.loop.run_until_complete(checking())
-bot.loop.run_until_complete(av_userbot_on())
+bot.loop.run_until_complete(avp_userbot_on())
 if not BOT_TOKEN:
     bot.loop.run_until_complete(autobot())
 idle()
